@@ -68,10 +68,11 @@ the "deploy" command.
 * [@colinmollenhour](https://twitter.com/colinmollenhour)
 * [Follow me on github!](https://github.com/colinmollenhour)
 
+## My Changes
 * [Ingo Weseloh](https://github.com/novalis111)
-* I basically just took a modified version from here and applied it to the current modman 
-  version to have relative symlinks. This way it's much easier to have a complete git repo
-  with several submodules on different machines you work on
+I basically just took a modified version from following URL and applied it to the current modman 
+version to have relative symlinks. This way it's much easier to have a complete git repo
+with several submodules on different machines you work on
 * Relative Paths taken from http://code.google.com/p/module-manager/issues/detail?id=11
 
 ## License
