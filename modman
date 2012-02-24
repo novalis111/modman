@@ -273,11 +273,6 @@ create_links ()
   eval "exec $FD< <(grep -v '^#' '$module' | tr -d '\r' | grep -v '^\s*$')"
   while read -u$FD line; do
       
-    # be sure to use unix styled
-    if which fromdos >/dev/null; then
-      line=`echo ${line} | fromdos`;
-    fi
-
     # Split <target> <real>
     read target real <<< $line
 
